@@ -2,14 +2,6 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
-}
-  
-    
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Trilha SAP</title>
 
@@ -22,10 +14,12 @@ body {
     text-align: center;
 }
 
+/* 🔥 AQUI ESTÁ A MELHORIA QUE FALEI */
 .container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    line-height: 1.6;
 }
 
 h1 {
@@ -33,18 +27,23 @@ h1 {
     color: #22c55e;
 }
 
+h2 {
+    margin-bottom: 10px;
+}
+
 .section {
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 .box {
     background: #1e293b;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
 }
 
 ul {
     text-align: left;
+    line-height: 1.6;
 }
 
 button {
@@ -63,7 +62,6 @@ button:hover {
 }
 
 img {
-    max-width: 500px;
     width: 100%;
     border-radius: 10px;
     margin-top: 20px;
@@ -79,6 +77,10 @@ img {
     text-decoration: line-through;
     color: #aaa;
 }
+
+a {
+    color: #22c55e;
+}
 </style>
 </head>
 
@@ -88,8 +90,8 @@ img {
 
 <h1>Entre no SAP em até 30 dias — mesmo sem experiência</h1>
 
-<img src="imagens/capa-ebook.png" alt="Capa Ebook">
-
+<img src="imagens/capa-ebook.png" style="max-width:600px;" alt="Capa Ebook">
+    
 <button onclick="window.location.href='#comprar'">
 QUERO ENTRAR NO SAP AGORA
 </button>
@@ -102,7 +104,7 @@ QUERO ENTRAR NO SAP AGORA
 <div class="section box">
 <h2>A escolha é sua</h2>
 
-<img src="imagens/escolha.png" alt="Escolha">
+<img src="imagens/escolha.png" style="max-width:500px;" alt="Escolha">
 
 <p><strong>Continuar na mesma realidade ou mudar de vida.</strong></p>
 </div>
@@ -110,7 +112,7 @@ QUERO ENTRAR NO SAP AGORA
 <div class="section">
 <h2>Prova real</h2>
 
-<img src="imagens/antes-depois.png" alt="Antes e Depois">
+<img src="imagens/antes-depois.png" style="max-width:450px;" alt="Antes e Depois">
 
 <p>Minha esposa era professora.</p>
 <p><strong>Em menos de 1 mês entrou no SAP.</strong></p>
